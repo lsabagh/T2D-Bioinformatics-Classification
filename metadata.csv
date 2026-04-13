@@ -1,0 +1,11 @@
+sample_id,class_label,disease_type
+SRR12096039,0,Healthy
+SRR12096038,0,Healthy
+SRR12096037,0,Healthy
+SRR12096036,0,Healthy
+SRR12096035,0,Healthy
+SRR12096024,1,Type 2 Diabetes
+SRR12096020,1,Type 2 Diabetes
+SRR12096019,1,Type 2 Diabetes
+SRR12096018,1,Type 2 Diabetes
+SRR12096016,1,Type 2 Diabetes
