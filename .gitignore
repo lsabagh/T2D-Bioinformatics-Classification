@@ -1,0 +1,12 @@
+# Ignore large bioinformatics data files
+*.fastq
+*.sra
+*.bam
+*.sam
+
+# Ignore Python cache
+pycache/
+*.pyc
+
+# Ignore environment variables
+.env
