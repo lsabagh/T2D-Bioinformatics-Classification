@@ -1,0 +1,22 @@
+# ==========================================
+# Environment Specialist: Omar Mohamed (ID: 4221135)
+# Role: Dependency & Environment Management
+# ==========================================
+
+# Core Data Science & Math
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+statsmodels==0.14.6
+
+# Bioinformatics Tools
+biopython==1.87
+scikit-bio==0.7.2
+h5py==3.16.0
+
+# Data Visualization
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Data Extraction & Networking
+requests==2.33.1
