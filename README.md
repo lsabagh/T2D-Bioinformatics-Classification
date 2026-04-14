@@ -19,3 +19,12 @@ python download_real_data.py
 
 > Note: تم ضبط النظام لسحب 5000 قراءة كإثبات فكرة لضمان سرعة التنفيذ.# T2D-Bioinformatics-Classification
 *Documentation is currently being drafted by the technical writing team.*
+
+## 📊 Data Quality Control (QC) & Clinical Validation
+لضمان موثوقية البيانات لاستخدامها في خوارزميات التصنيف وتطبيقات تعلم الآلة (Machine Learning)، تم تطبيق المعايير السريرية التالية:
+
+- Balanced Cohort (توازن العينات): تم اختيار 10 عينات متوازنة بعناية (5 لمرضى السكر T2D مقابل 5 أصحاء Healthy Controls) لمنع أي انحياز (Bias) في النماذج المستقبلية.
+- Metadata Mapping (الربط الإكلينيكي): تم إنشاء ملف metadata.csv لربط المعرفات المبهمة (SRA IDs) بالحالة السريرية الفعلية لكل مريض، وهو الأساس لعمليات الـ Supervised Learning.
+- Clinical Validity (الموثوقية السريرية): جميع العينات مستخرجة من دراسات موثقة على قاعدة بيانات NCBI، مما يضمن أن الـ Pipeline يستخرج بيانات بيولوجية حقيقية 100%.
+
+---
