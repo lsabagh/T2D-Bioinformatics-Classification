@@ -1,0 +1,7 @@
+--- Premium Quality Control Report ---
+Total Reads: 5000
+Average Read Length: 124.71 bp
+GC Content: 59.50%
+Q20 Percentage: 100.00%
+Q30 Percentage: 50.04%
+--------------------------------------
